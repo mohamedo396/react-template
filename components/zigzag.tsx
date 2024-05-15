@@ -1,9 +1,9 @@
 import React from 'react'
 
-const zigzag = () => {
+const Zigzag = () => {
   return (
     <div>zigzag</div>
   )
 }
 
-export default zigzag
+export default Zigzag

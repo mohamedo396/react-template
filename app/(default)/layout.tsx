@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import "aos/dist/aos.css"
 import Pageillustration from '@/components/Pageillustration'
-import footer from '@/components/ui/footer'
+import Footer from '@/components/ui/footer'
 
 export default function DefaultLayout({
   children,
@@ -29,7 +29,7 @@ export default function DefaultLayout({
         {children}
       </main>
 
-      <footer />
+      <Footer />
     </>
   )
 }
